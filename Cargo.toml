@@ -1,0 +1,8 @@
+[package]
+name = "hound-afl"
+version = "0.1.0"
+authors = ["Sergey \"Shnatsel\" Davidoff <shnatsel@gmail.com>"]
+
+[dependencies]
+hound = {git = "https://github.com/ruuda/hound.git" }
+afl = "0.4"
